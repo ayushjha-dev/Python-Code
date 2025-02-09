@@ -1,0 +1,80 @@
+# Define a string
+my_string = "Ayush Kumar Jha"
+
+# Print the length of the string
+print(len(my_string))  # Output: 13
+
+# Accessing elements using indexing
+print(my_string[0])   # First character: 'H'
+print(my_string[-1])  # Last character: '!'
+
+# Slicing the string
+print(my_string[0:5])  # Output: 'Hello'
+print(my_string[:5])   # Output: 'Hello'
+print(my_string[7:])   # Output: 'World!'
+
+# String concatenation
+new_string = my_string + " Welcome!"
+print(new_string)  # Output: 'Hello, World! Welcome!'
+
+# String repetition
+repeated_string = my_string * 2
+print(repeated_string)  # Output: 'Hello, World!Hello, World!'
+
+# Converting to uppercase
+print(my_string.upper())  # Output: 'AYUSH KUMAR JHA'
+
+# Converting to lowercase
+print(my_string.lower())  # Output: 'ayush kumar jha'
+
+# Finding a substring index
+print(my_string.find("World"))  # Output: 7
+
+# Replacing a substring
+modified_string = my_string.replace("World", "Python")
+print(modified_string)  # Output: 'Hello, Python!'
+
+# Splitting the string
+split_list = my_string.split(", ")
+print(split_list)  # Output: ['Hello', 'World!']
+
+# Define a list with different data types
+the_list = [1, 1, 3, "four", 5.0]
+
+# Print the length of the list
+print(len(the_list))  # Output: 5
+
+# Accessing elements using indexing
+print(the_list[0])   # First element: 1
+print(the_list[-1])  # Last element: 5.0
+
+# Append an element to the list
+the_list.append(6)  # Adds 6 to the end of the list
+
+# Insert an element at a specific index
+the_list.insert(2, "new")  # Inserts "new" at index 2
+
+# Remove an element from the list
+the_list.remove("four")  # Removes the first occurrence of "four"
+
+# Get the index of an element
+print(the_list.index(3))  # Returns the index of first occurrence of 3
+
+# Count occurrences of an element
+print(the_list.count(2))  # Returns the count of occurrences of 2
+
+# Remove the last element
+the_list.pop()  # Removes and returns the last element of the list
+
+# Reverse the list
+the_list.reverse()  # Reverses the list in place
+
+# Copy the list
+list_copy = the_list.copy()  # Creates a shallow copy of the list
+
+# Clear the list
+the_list.clear()  # Removes all elements from the list
+
+# Print the lists
+print(the_list)  # Output: []
+print(list_copy)  # Output: Reversed copy of the original list
